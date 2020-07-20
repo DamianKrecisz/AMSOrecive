@@ -46,6 +46,6 @@ export class DashboardComponent implements OnInit {
     this.firebaseService.deleteOrder(id);
   }
   deleteRMA(id) {
-    this.firebaseService.deleteOrder(id);
+    this.firebaseService.deleteRma(id);
   }
 }

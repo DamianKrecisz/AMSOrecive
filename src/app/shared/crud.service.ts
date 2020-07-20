@@ -23,6 +23,6 @@ export class CrudService {
     this.db.doc('order/' + id).delete();
   }
   deleteRma(id:string) {
-    this.db.doc('order/' + id).delete();
+    this.db.doc('rma/' + id).delete();
   }
 }
