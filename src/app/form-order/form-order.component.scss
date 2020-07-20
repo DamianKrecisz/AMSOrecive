@@ -19,6 +19,10 @@ label{
     width:50%;
     height: 10vh;
     font-size:1rem;
+    display:flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
 }
 label:hover{
     background-color:orange;
@@ -29,7 +33,7 @@ label:hover{
     flex-direction: column;
     justify-items: center;
     align-items: center;
-
+    text-align: center;
 }
 button{
     width:50vw;
